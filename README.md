@@ -6,13 +6,13 @@ Estudo dos cinco princípios SOLID de design orientado a objetos, com exemplos p
 
 SOLID é um acrônimo para cinco princípios de design que ajudam a escrever código mais legível, manutenível e escalável:
 
-| Sigla | Princípio | Descrição |
-|-------|-----------|-----------|
-| **S** | Single Responsibility Principle (SRP) | Uma classe deve ter apenas um motivo para mudar. |
-| **O** | Open/Closed Principle (OCP) | Entidades devem estar abertas para extensão, mas fechadas para modificação. |
-| **L** | Liskov Substitution Principle (LSP) | Subtipos devem poder substituir seus tipos base sem quebrar o comportamento. |
-| **I** | Interface Segregation Principle (ISP) | Muitas interfaces específicas são melhores que uma interface geral. |
-| **D** | Dependency Inversion Principle (DIP) | Dependa de abstrações, não de implementações concretas. |
+| Sigla | Princípio                             | Descrição                                                                    |
+| ----- | ------------------------------------- | ---------------------------------------------------------------------------- |
+| **S** | Single Responsibility Principle (SRP) | Uma classe deve ter apenas um motivo para mudar.                             |
+| **O** | Open/Closed Principle (OCP)           | Entidades devem estar abertas para extensão, mas fechadas para modificação.  |
+| **L** | Liskov Substitution Principle (LSP)   | Subtipos devem poder substituir seus tipos base sem quebrar o comportamento. |
+| **I** | Interface Segregation Principle (ISP) | Muitas interfaces específicas são melhores que uma interface geral.          |
+| **D** | Dependency Inversion Principle (DIP)  | Dependa de abstrações, não de implementações concretas.                      |
 
 ## Estrutura do projeto
 
@@ -37,18 +37,6 @@ SOLID é um acrônimo para cinco princípios de design que ajudam a escrever có
 3. [Liskov Substitution Principle (LSP)](3-LSP-liskov-substituition-principle.md)
 4. [Interface Segregation Principle (ISP)](4-ISP-interface-segregation-principle.md)
 5. [Dependency Inversion Principle (DIP)](5-DIP-dependency-inversion-principle.md)
-
-## Como executar
-
-Certifique-se de ter o [Dart SDK](https://dart.dev/get-dart) instalado. Em seguida, execute qualquer exemplo:
-
-```bash
-dart run 1-SRP-single-responsibility-principle.dart
-```
-
-## Tecnologias
-
-- [Dart](https://dart.dev/)
 
 ## Autor
 
